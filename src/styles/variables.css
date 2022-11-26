@@ -1,0 +1,13 @@
+:root {
+	/* Colors */
+	--clr-neutral: hsl(0, 0%, 98%);
+	--clr-primary: hsl(1, 79%, 56%);
+	--clr-primary-accent: hsl(1, 69%, 46%);
+
+	/* Fonts */
+	--fs-400: 1rem;
+	--fs-600: 2rem;
+
+	--fs-body: var(--fs-400);
+	--fs-primary-heading: var(--fs-600);
+}

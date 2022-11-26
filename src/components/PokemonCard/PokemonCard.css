@@ -1,0 +1,52 @@
+.cardContainer {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+
+	background-color: var(--clr-primary);
+	border: 1px solid var(--clr-primary);
+	border-radius: 0.5em;
+
+	width: min(400px, 75vw);
+	margin-top: 4rem;
+}
+
+.cardHeader {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cardTitle {
+	font-family: Pokemon;
+	font-size: var(--fs-400);
+	text-transform: capitalize;
+	letter-spacing: 0.125em;
+
+	background-color: var(--clr-neutral);
+	color: var(--clr-primary);
+
+	border-radius: 0.5em;
+	margin: 0.25em;
+	padding: 0.5em 0.75em;
+}
+
+.cardId {
+	background-color: var(--clr-primary);
+	color: var(--clr-neutral);
+	border-radius: 50%;
+	border: 2px solid var(--clr-neutral);
+
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+
+	margin: auto 0.5em;
+	text-align: center;
+}
+
+.cardContainer img {
+	background-color: var(--clr-neutral);
+	border-radius: 0 0 0.5em 0.5em;
+}

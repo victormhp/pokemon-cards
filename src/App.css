@@ -1,0 +1,8 @@
+.title {
+	font-family: Pokemon;
+	font-size: var(--fs-primary-heading);
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: var(--clr-primary);
+	padding: 0.5em;
+}
