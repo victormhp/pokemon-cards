@@ -63,6 +63,7 @@
 	color: var(--clr-neutral);
 	border-bottom: 2px solid var(--clr-neutral);
 	margin-bottom: 1em;
+	padding: 0.25em 0;
 }
 
 .cardInfo li {

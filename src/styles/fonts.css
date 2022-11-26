@@ -1,30 +1,14 @@
 @font-face {
-	font-family: 'Calibre';
-	src: url('../assets/fonts/Calibre-Semibold.woff') format('woff');
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'Calibre';
-	src: url('../assets/fonts/Calibre-Medium.woff') format('woff');
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'Calibre';
-	src: url('../assets/fonts/Calibre-Regular.woff') format('woff');
+	font-family: 'Pokemon';
+	src: url('../assets/fonts/Pokemon-Solid.woff') format('woff');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Pokemon';
-	src: url('../assets/fonts/Pokemon-Solid.woff') format('woff');
+	font-family: 'Roboto';
+	src: url('../assets/fonts/Roboto-mono.woff') format('woff');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
