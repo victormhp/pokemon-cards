@@ -12,6 +12,7 @@
 ul[role='list'],
 ol[role='list'] {
 	list-style: none;
+	text-transform: capitalize;
 }
 
 html:focus-within {
@@ -28,7 +29,6 @@ body {
 	font-family: Calibre;
 	font-size: var(--fs-body);
 	background-color: var(--clr-neutral);
-
 	text-rendering: optimizeSpeed;
 }
 
@@ -41,6 +41,13 @@ picture,
 svg {
 	max-width: 100%;
 	display: block;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
 }
 
 input::-webkit-search-cancel-button {

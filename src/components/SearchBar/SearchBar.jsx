@@ -13,6 +13,8 @@ function SearchBar() {
 		setData({ ...data, name: inputRef.current.value.toLowerCase(), isEnter: false });
 	};
 
+	console.log(data.isEnter);
+
 	return (
 		<div className='container'>
 			<form className='searchBar' onSubmit={e => e.preventDefault()}>
@@ -30,7 +32,7 @@ function SearchBar() {
 			</form>
 			<>
 				{data.isEnter ? (
-					<CSSTransition nodeRef={nodeRef} in={data.isEnter} timeout={3000} classNames='fade' appear={true}>
+					<CSSTransition nodeRef={nodeRef} in={data.isEnter} timeout={5000} classNames='fade' appear={true}>
 						<div ref={nodeRef}>
 							<PokemonCard pokemon={data.results} />
 						</div>

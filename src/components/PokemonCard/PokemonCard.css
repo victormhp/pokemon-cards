@@ -1,26 +1,24 @@
 .cardContainer {
 	display: flex;
-	align-items: flex-start;
-	justify-content: center;
 	flex-direction: column;
 
 	background-color: var(--clr-primary);
 	border: 1px solid var(--clr-primary);
 	border-radius: 0.5em;
 
-	width: min(400px, 75vw);
-	margin-top: 4rem;
+	width: min(450px, 85vw);
+	margin: 3em 0;
 }
 
 .cardHeader {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	font-family: Pokemon;
 }
 
-.cardTitle {
-	font-family: Pokemon;
-	font-size: var(--fs-400);
+.cardHeader h3 {
+	font-size: var(--fs-secondary-header);
 	text-transform: capitalize;
 	letter-spacing: 0.125em;
 
@@ -29,18 +27,18 @@
 
 	border-radius: 0.5em;
 	margin: 0.25em;
-	padding: 0.5em 0.75em;
+	padding: 0.25em 0.75em;
 }
 
-.cardId {
+.cardHeader span {
 	background-color: var(--clr-primary);
 	color: var(--clr-neutral);
 	border-radius: 50%;
 	border: 2px solid var(--clr-neutral);
 
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
+	width: clamp(30px, 5vw, 40px);
+	height: clamp(30px, 5vw, 40px);
+	line-height: clamp(30px, 5vw, 40px);
 
 	margin: auto 0.5em;
 	text-align: center;
@@ -48,5 +46,30 @@
 
 .cardContainer img {
 	background-color: var(--clr-neutral);
-	border-radius: 0 0 0.5em 0.5em;
+}
+
+.cardInfo {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.cardInfo div {
+	padding: 1em;
+}
+
+.cardInfo h4 {
+	font-size: var(--fs-tertiary-header);
+	color: var(--clr-neutral);
+	border-bottom: 2px solid var(--clr-neutral);
+	margin-bottom: 1em;
+}
+
+.cardInfo li {
+	background-color: var(--clr-neutral);
+	color: var(--clr-primary-accent);
+	border-radius: 50px;
+	padding: 0.25em 1em;
+	margin: 0.5em 0;
+	text-align: center;
 }

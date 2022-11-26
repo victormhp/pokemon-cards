@@ -5,7 +5,7 @@
 
 .fade-appear-active {
 	opacity: 1;
-	transition: opacity 3000ms;
+	transition: opacity 5000ms;
 }
 
 /* Enter transition */
@@ -15,7 +15,7 @@
 
 .fade-enter-active {
 	opacity: 1;
-	transition: opacity 3000ms;
+	transition: opacity 5000ms;
 }
 
 .fade-enter-done {
