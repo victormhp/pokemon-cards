@@ -36,24 +36,23 @@
 
 .searchSubmit:hover {
 	background-color: var(--clr-primary-accent);
+	border: 2px solid var(--clr-primary-accent);
 }
 
 @media (min-width: 30rem) {
 	.searchBar {
 		flex-direction: row;
-		border: 2px solid var(--clr-primary);
-		border-radius: 0.5em;
 	}
 
 	.searchInput {
-		padding: 0.25em 0.5em;
-		border: 0;
-		z-index: 100;
+		border-radius: 0.5em 0 0 0.5em;
+		border-right: 0;
 	}
 
 	.searchSubmit {
 		margin-top: 0;
 		border-radius: 0 0.3em 0.3em 0;
+		border: 2px solid var(--clr-primary);
 		width: 25%;
 	}
 }

@@ -13,8 +13,6 @@ function SearchBar() {
 		setData({ ...data, name: inputRef.current.value.toLowerCase(), isEnter: false });
 	};
 
-	console.log(data.isEnter);
-
 	return (
 		<div className='container'>
 			<form className='searchBar' onSubmit={e => e.preventDefault()}>
