@@ -3,17 +3,18 @@
 Website where you can generate pokemon cards of every pokemon with the help of PokéApi.
 
 
-## [Demo](https://pokemon-cards-gen.netlify.app/) :robot:
+## Technologies
 
 Some of the technologies used in this project are the following:
 
+- Javascript
 - React
 - Vite
 - Axios
 - pnpm
 
 
-## Setup
+## [Setup](https://pokemon-cards-gen.netlify.app/) :robot:
 
 In order to setup the project you need to have install node and pnpm:
 
