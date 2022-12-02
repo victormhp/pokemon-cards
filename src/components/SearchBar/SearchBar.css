@@ -56,3 +56,27 @@
 		width: 25%;
 	}
 }
+
+/* Appear transition */
+.fade-appear {
+	opacity: 0;
+}
+
+.fade-appear-active {
+	opacity: 1;
+	transition: opacity 5000ms;
+}
+
+/* Enter transition */
+.fade-enter {
+	opacity: 0;
+}
+
+.fade-enter-active {
+	opacity: 1;
+	transition: opacity 5000ms;
+}
+
+.fade-enter-done {
+	opacity: 1;
+}

@@ -26,9 +26,6 @@ body,
 }
 
 body {
-	font-family: Roboto;
-	font-size: var(--fs-body);
-	background-color: var(--clr-neutral);
 	text-rendering: optimizeSpeed;
 }
 

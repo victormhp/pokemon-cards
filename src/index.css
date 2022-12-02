@@ -1,4 +1,9 @@
 @import './styles/fonts.css';
 @import './styles/variables.css';
-@import './styles/global.css';
-@import './styles/transitions.css';
+@import './styles/reset.css';
+
+body {
+	font-family: Roboto;
+	font-size: var(--fs-body);
+	background-color: var(--clr-neutral);
+}
