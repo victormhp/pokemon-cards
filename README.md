@@ -3,7 +3,7 @@
 Website where you can generate pokemon cards of every pokemon with the help of PokéApi.
 
 
-## Technologies
+## 🚀 Technologies
 
 Some of the technologies used in this project are the following:
 
