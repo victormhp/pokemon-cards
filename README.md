@@ -1,4 +1,4 @@
-# Pokemon Card Generator
+## 🔴💻[Pokemon Card Generator](https://pokemon-cards-gen.netlify.app/)
 
 Website where you can generate pokemon cards of every pokemon with the help of PokéApi.
 
@@ -14,7 +14,7 @@ Some of the technologies used in this project are the following:
 - pnpm
 
 
-## [Setup](https://pokemon-cards-gen.netlify.app/) :robot:
+## 🔧 Setup
 
 In order to setup the project you need to have install node and pnpm:
 
